@@ -1,5 +1,6 @@
 <?php
 // JANGAN DIUBAH IF INI
+session_start();
 if (!isset($_SESSION["nama"])) {
     echo "<p>Belum ada pesanan.</p>";
 } else {

@@ -1,6 +1,7 @@
 <?php
 // Kerjakan mulai dari sini untuk menyimpan data ke Session
 // $_SESSION["..."] = ...;
+session_start();
 global $nama, $jumlah, $kategori, $menu ,$subtotal, $diskon, $total;
 $_SESSION["nama"] = $nama;
 $_SESSION["jumlah"] = $jumlah;
