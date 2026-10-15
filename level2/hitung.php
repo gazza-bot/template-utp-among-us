@@ -6,10 +6,6 @@ $jumlah = (int) $_POST["jumlah"];
 $kategori = $_POST["kategori"];
 
 // Kerjakan mulai darisini
-if($jumlah <= 0) {
-    header("location: ../index.php");
-}
-
 // Hitung harga
 $harga = 0;
 $subtotal = $harga * $jumlah;
