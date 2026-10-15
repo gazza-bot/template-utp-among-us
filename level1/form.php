@@ -30,13 +30,13 @@
 <form action="proses.php" method="post">
     <label for="nama">Nama</label>
     <br>
-    <input type="text" name="nama" id="">
+    <input type="text" name="nama" id="" required>
     <br>
     <br>
     <!-- Input Pilihan Ransum -->
     <label for="menu">Pilihan menu</label>
     <br>
-    <select name="menu" id="">
+    <select name="menu" id="" required>
         <option value="Pizza Segitiga Polus">Pizza Segitiga Polus</option>
         <option value="Susu Elektrik Electrical">Susu Elektrik Electrical</option>
         <option value="Space Donut Oxygen">Space Donut Oxygen</option>
@@ -48,12 +48,12 @@
     <!-- Input Jumlah -->
     <label for="jumlah">Jumlah Pesanan</label>
     <br>
-    <input type="number" name="jumlah" id="">
+    <input type="number" name="jumlah" id="" required>
     <br>
     <!-- Input Pilihan Jenis Pelanggan -->
     <label for="kategori">Jenis Pelanggan</label>
     <br>
-    <select name="kategori" id="">
+    <select name="kategori" id="" required>
         <option value="Impostor">Impostor</option>
         <option value="Crewmate">Crewmate</option>
     </select>
